@@ -144,27 +144,3 @@ footer {
   }
 }
 
-/* Extra large devices (large laptops and desktops, 1024px) */
-@media screen and (min-width: 1024px) {
-  .header {
-    height: 400px;
-    width: 750px;
-  }
-
-  .container {
-    width: 750px;
-    height: 620px;
-  }
-
-  .about {
-    width: 650px;
-  }
-
-  .experience {
-    width: 750px;
-  }
-
-  .container1 {
-    width: 730px;
-  }
-}
