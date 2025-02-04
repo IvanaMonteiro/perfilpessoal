@@ -1,0 +1,170 @@
+body {
+  background-color: rgb(225, 251, 242);
+}
+
+div,
+footer {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(84, 83, 83);
+}
+
+.header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+img {
+  border-radius: 100px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  background-color: aquamarine;
+  border-radius: 10px;
+}
+
+.about {
+  text-align: justify;
+  width: 900px;
+  padding: 50px;
+  padding-left: 50px;
+}
+
+.experience {
+  text-align: center;
+}
+.information {
+  text-align: left;
+  padding: 50px;
+}
+
+.negrito {
+  font-weight: 700;
+}
+.container1 {
+  display: flex;
+  justify-content: space-around;
+  background-color: aquamarine;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+ul {
+  font-size: 16px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Small devices (portrait tablets and large phones) */
+@media screen and (max-width: 450px) {
+  .header {
+    height: 340px;
+    width: 300px;
+  }
+  h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .container {
+    display: inline-block;
+    width: 300px;
+  }
+
+  .container1 {
+    display: inline-block;
+    height: 1200px;
+    width: 280px;
+  }
+
+  .about {
+    height: 150px;
+    width: 250px;
+    padding-bottom: 150px;
+    padding-left: 30px;
+  }
+
+  .information {
+    height: 330px;
+    width: 290px;
+    padding-left: 30px;
+  }
+
+  .experience {
+    height: 500px;
+    width: 300px;
+  }
+
+  footer {
+    display: block;
+    width: 390px;
+    height: 370px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px ) */
+
+@media screen and (min-width: 768px) {
+  .header {
+    width: 590px;
+    height: 380px;
+  }
+
+  .container {
+    display: inline-block;
+    height: 650px;
+    width: 560px;
+  }
+
+  .about {
+    height: 150px;
+    width: 470px;
+  }
+
+  .experience {
+    width: 560px;
+    height: 400px;
+  }
+
+  .container1 {
+    display: inline-block;
+    width: 540px;
+    height: 900px;
+  }
+
+  footer {
+    display: block;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1024px) */
+@media screen and (min-width: 1024px) {
+  .header {
+    height: 400px;
+    width: 750px;
+  }
+
+  .container {
+    width: 750px;
+    height: 620px;
+  }
+
+  .about {
+    width: 650px;
+  }
+
+  .experience {
+    width: 750px;
+  }
+
+  .container1 {
+    width: 730px;
+  }
+}

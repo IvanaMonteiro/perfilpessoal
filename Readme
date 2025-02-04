@@ -1,0 +1,12 @@
+Exercício de Prática - Criando um Blog Simples com Formulário de Contato
+
+Enunciado:
+
+Foi contratado para desenvolver um blog simples para um cliente. O blog precisa ter uma estrutura básica contendo pelo menos dois artigos com imagens, títulos e conteúdos. Além disso, o cliente deseja incluir um formulário de contato para que os visitantes possam enviar mensagens diretamente pelo site.
+
+Requisitos:
+
+Crie um arquivo HTML com a estrutura básica de um blog, incluindo um cabeçalho com o título do blog, dois artigos com títulos, conteúdos e imagens, e um rodapé com informações de direitos autorais.
+Estilize o blog utilizando CSS para melhorar sua aparência. Certifique-se de incluir estilos para cabeçalho, artigos, imagens, etc.
+Adicione um formulário de contato abaixo dos artigos no arquivo HTML. O formulário deve conter campos para nome, email, mensagem e um botão de envio.
+Estilize o formulário de contato usando CSS para que ele se integre visualmente ao restante do blog.
